@@ -17,7 +17,7 @@
     <title>Amazing-CSS-Effects</title>
   </head>
 
-  <body>
+  <body class="">
     <!--Adding a NavBar-->
 
     <div class="topnav" id="myTopnav">
@@ -30,6 +30,10 @@
       <a href="javascript:void(0);" class="icon" onclick="myFunction()">
         <i class="fa fa-bars"></i>
       </a>
+      <label class="switch switch_pos">
+        <input class="toggle_btn_theme" type="checkbox" checked>
+        <span class="slider round"></span>
+      </label>
     </div>
 
     <!--Adding a NavBar-->
@@ -116,5 +120,10 @@
 
     <script src="script.js"></script>
     <script src="style_links.json"></script>
+    <script>
+      document.querySelector(".toggle_btn_theme").addEventListener('click',() =>{
+        document.body.classList.toggle("lighttheme")
+      })
+    </script>
   </body>
 </html>
