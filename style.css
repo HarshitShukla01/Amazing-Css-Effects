@@ -311,6 +311,8 @@ footer {
   font-family: "Poppins", sans-serif;
   bottom: 0;
   left: 0;
+  /* background-image: url("https://images.pond5.com/abstract-wavy-background-dark-blue-footage-104493373_iconl.jpeg");
+  background-repeat: no-repeat; */
 }
 footer .content {
   max-width: 1350px;
@@ -407,3 +409,16 @@ footer a:hover {
 }
 
 /* styles for footer ends */
+
+
+
+/* SVG */
+.div_svg{
+ position: absolute;
+width: 100%;
+z-index: -10;
+}
+svg {
+  width: 100%;
+}
+
